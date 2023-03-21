@@ -10,4 +10,6 @@ The first thing I do every morning is solve a coding problem to sharpen my probl
 ## Lessons learned
 The biggest lesson learned is that solving coding problems dramatically increases the problem-solving skills of the human brain. 
 
-![](https://github.com/ToobaJamal/Exercism_JavaScript/blob/main/testimonialgif.mp4)
+
+![](https://github.com/ToobaJamal/Exercism_JavaScript/blob/main/exercism_testimonial.gif) \
+![](https://github.com/ToobaJamal/Exercism_JavaScript/blob/main/testimonial1.gif)

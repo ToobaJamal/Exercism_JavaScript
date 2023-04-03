@@ -13,29 +13,17 @@ does not have any of 3, 5, or 7 as a factor, the result should be the digits of 
 
 const convert = (n) => {
   let rainDrops = ""
-  if(n%3 === 0 && n%5 === 0 && n%7 === 0) {
-      rainDrops = "PlingPlangPlong"
+  if(n%3 === 0) {
+      rainDrops += "Pling"
   }
-  else if (n%3 === 0 && n%5 === 0) {
-      rainDrops = "PlingPlang"
+  if (n%5 === 0) {
+      rainDrops += "Plang"
   }
-  else if (n%5 === 0 && n%7 === 0) {
-      rainDrops = "PlangPlong"
+  if (n%7 === 0) {
+      rainDrops += "Plong"
   }
-  else if (n%3 === 0 && n%7 === 0) {
-      rainDrops = "PlingPlong"
-  }
-  else if (n%3 === 0) {
-      rainDrops = "Pling"
-  }
-  else if (n%5 === 0) {
-      rainDrops = "Plang"
-  }
-  else if (n%7 === 0) {
-      rainDrops = "Plong"
-  }
-  else {
-      rainDrops = String(n)
+  if (n%3 !== 0 && n % 5 !== 0 && n%7 !== 0) {
+      rainDrops += n
   }
   return rainDrops
 };
